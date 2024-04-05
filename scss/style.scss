@@ -78,7 +78,6 @@ main {
         }
       }
     }
-    
   }
   .row {
     img {
@@ -86,10 +85,10 @@ main {
     }
   }
   .brd::before {
-      border: 1px solid #ffffff8c;
-      padding: 3px 10px;
-      border-radius: 3px;
-    }
+    border: 1px solid #ffffff8c;
+    padding: 3px 10px;
+    border-radius: 3px;
+  }
 }
 footer {
   padding-top: 150px;
@@ -109,6 +108,68 @@ footer {
 }
 i {
   color: #ffffff8c;
+}
+
+.font {
+  font-size: 0.8em;
+}
+.border1 {
+  border: 1px solid #ffffff8c;
+  color: #ffffff8c;
+  border-radius: 3px;
+}
+.form-check-input:checked {
+  background-color: transparent;
+  border-color: rgba(231, 229, 229, 0.397);
+  border-radius: 0;
+  padding: 0.6em;
+  opacity: 0.6;
+}
+.unchecked {
+  background-color: transparent;
+  border-color: rgba(231, 229, 229, 0.397);
+  border-radius: 0;
+  padding: 0.6em;
+}
+.dropdown-menu.show {
+  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+  color: white;
+
+  a {
+    &:hover {
+      background-color: #ffffff8c;
+    }
+  }
+}
+
+.bord {
+  border-radius: 50%;
+  padding: 1px 4px;
+  margin-bottom: 1px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+
+  @media screen and (max-width: 765.5px) {
+    & {
+      font-size: 0.7em;
+    }
+  }
+  @media screen and (max-width: 575.5px) {
+    & {
+      font-size: 0.5em;
+    }
+  }
+  @media screen and (max-width: 490.5px) {
+    & {
+      font-size: 0.3em;
+    }
+  }
+  @media screen and (max-width: 400.5px) {
+    & {
+      font-size: 0.1em;
+    }
+  }
 }
 @media screen and (max-width: 575.5px) {
   .p-btn {
