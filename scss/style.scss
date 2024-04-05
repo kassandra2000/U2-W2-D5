@@ -1,0 +1,117 @@
+@import "./partials/bootstrap-overrides";
+%flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+%flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+%flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+::marker {
+  color: transparent;
+}
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  div {
+    .logo {
+      max-width: 160px;
+    }
+    .search {
+      @extend %flex-around;
+      color: #ffffff8c;
+      min-width: 25%;
+      i {
+        color: white;
+        font-weight: 900;
+      }
+      p {
+        margin: 0;
+        a {
+        }
+      }
+      div {
+        img {
+          max-width: 50px;
+        }
+      }
+    }
+  }
+}
+main {
+  .container {
+    margin-left: 40px;
+    padding: 0;
+    .row {
+      div {
+        h1 {
+          margin: 0;
+        }
+      }
+      div {
+        padding: 0;
+        li {
+          .bord {
+            border: 1px solid #ffffff8c;
+            display: inline;
+          }
+          ul {
+            li {
+              a {
+                color: #ffffff8c;
+                &:hover {
+                  background-color: #2e2e2e8c;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    
+  }
+  .row {
+    img {
+      width: 100%;
+    }
+  }
+  .brd::before {
+      border: 1px solid #ffffff8c;
+      padding: 3px 10px;
+      border-radius: 3px;
+    }
+}
+footer {
+  padding-top: 150px;
+  p {
+    color: #ffffff8c;
+    font-size: 0.8em;
+    &.bord {
+      display: inline;
+      padding: 5px;
+
+      border: 1px solid white;
+    }
+    &.copy {
+      margin: 20px 0 30px;
+    }
+  }
+}
+i {
+  color: #ffffff8c;
+}
+@media screen and (max-width: 575.5px) {
+  .p-btn {
+    margin: 60px 0 60px;
+  }
+}
