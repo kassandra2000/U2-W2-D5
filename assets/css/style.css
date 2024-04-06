@@ -12079,7 +12079,7 @@ i {
   background-color: rgba(255, 255, 255, 0.5490196078);
 }
 
-.bord {
+.bord1 {
   border-radius: 50%;
   padding: 1px 4px;
   margin-bottom: 1px;
@@ -12088,22 +12088,22 @@ i {
   border: 2px solid white;
 }
 @media screen and (max-width: 765.5px) {
-  .bord {
+  .bord1 {
     font-size: 0.7em;
   }
 }
 @media screen and (max-width: 575.5px) {
-  .bord {
+  .bord1 {
     font-size: 0.5em;
   }
 }
 @media screen and (max-width: 490.5px) {
-  .bord {
+  .bord1 {
     font-size: 0.3em;
   }
 }
 @media screen and (max-width: 400.5px) {
-  .bord {
+  .bord1 {
     font-size: 0.1em;
   }
 }
